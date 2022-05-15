@@ -12,6 +12,6 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 app.use('/api/v1', serviceRoutes);
-app.use('/api/v1/email', emailRoute);
+// app.use('/api/v1/email', emailRoute);
 
 module.exports=app
